@@ -31,7 +31,7 @@ class Laravel extends ServiceProvider
     public function register()
     {
         $this->app['multipress'] = $this->app->share(function ($app) {
-            $conn = new Client($app['config']['wmc/multipress::wsdl'], $app['config']['wmc/multipress::options']);
+            $conn = new Client($app['config']->get('multipress::wsdl'), $app['config']->get('multipress::options'));
 
             return new Service($conn);
         });

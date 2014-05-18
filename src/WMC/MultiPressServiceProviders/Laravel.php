@@ -1,6 +1,8 @@
 <?php namespace WMC\MultiPressServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
+use WMC\MultiPress\Client;
+use WMC\MultiPress\Service;
 
 class Laravel extends ServiceProvider
 {

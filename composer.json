@@ -8,7 +8,7 @@
             "email": "gd@wmc.io"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "repositories": [
         {
             "type": "vcs",
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "wmc/multipress": "dev-master"
+        "wmc/multipress": "~0.2"
 
     },
     "autoload": {

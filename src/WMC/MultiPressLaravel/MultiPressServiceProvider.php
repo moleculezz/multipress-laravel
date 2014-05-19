@@ -1,4 +1,4 @@
-<?php namespace WMC\MultiPress;
+<?php namespace WMC\MultiPressLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use WMC\MultiPress\Client;

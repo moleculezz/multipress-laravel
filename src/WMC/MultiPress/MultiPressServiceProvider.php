@@ -1,10 +1,10 @@
-<?php namespace WMC\MultiPressServiceProviders;
+<?php namespace WMC\MultiPress;
 
 use Illuminate\Support\ServiceProvider;
 use WMC\MultiPress\Client;
 use WMC\MultiPress\Service;
 
-class Laravel extends ServiceProvider
+class MultiPressServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

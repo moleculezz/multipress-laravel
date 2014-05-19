@@ -1,6 +1,6 @@
 {
-    "name": "wmc/multipress-service-providers",
-    "description": "MultiPress Service Providers",
+    "name": "wmc/multipress-laravel",
+    "description": "MultiPress Laravel Service Provider",
     "license": "MIT",
     "authors": [
         {

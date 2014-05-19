@@ -1,1 +1,1 @@
-# Multi-Press Service Providers for Laravel
+# Multi-Press Service Provider for Laravel
